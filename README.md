@@ -21,4 +21,7 @@ Figma Design - https://www.figma.com/file/w7wN1934wsRWZAMhPU0IEX/100x-microblogg
 
 Designs will be reviewed for visual appeal, layout sensibility, and responsive design principles.
 
+## Page Link:
+https://100x-engineers.github.io/layouts-assignment-Sidhant22/
+
 ---
