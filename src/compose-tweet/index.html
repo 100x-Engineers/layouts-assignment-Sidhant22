@@ -9,11 +9,11 @@
 <body class="bg-cardfill">
     <section class="inline-flex gap-20 p-10 flex-col items-start ">
 
-        <div class="flex w-1272 py-3 px-5 flex-col justify-center gap-5 items-start bg-twitter-blue">
+        <!-- <div class="flex w-1272 py-3 px-5 flex-col justify-center gap-5 items-start bg-twitter-blue">
             <p class="text-neutral-50 text-2xl not-italic leading-normal font-bold">
                 Assignment 2.2 - Compose tweet
             </p>
-        </div>
+        </div> -->
 
 
         <section class="bg-neutral-1000 w-390 h-868 shrink-0 ">
@@ -26,7 +26,11 @@
             </div>
         
             <div class="flex w-390 py-3 px-4 justify-between items ">
-                <img src="/public/images/create-account-1-signup-x.png" alt="X-logo" class="w-6 h-6 shrink-0">
+                <a href="/src/user-profile/index.html">
+                    <img src="/public/images/create-account-1-signup-x.png" alt="X-logo" class="w-6 h-6 shrink-0">
+                </a>
+
+                
                 <button class="flex justify-center py-2 px-6 items-center gap-2.5 rounded-[30px] bg-twitterblue-disabled">
                     <p class="text-center not-italic leading-normal font-bold text-sm text-neutral-400">
                         Post
@@ -35,24 +39,28 @@
             </div>
         
             <div class="flex w-390 justify-center items-center py-8 px-4 gap-3">
-                    <img src="/public/images/copy-link-user-avatarip.png" alt="avatarlogo" class="w-6 h-6 shrink-0">
-                    <div class="flex items-center flex-2">
+                    <img src="/public/images/copy-link-user-avatarip.png" alt="avatarlogo" class="w-6 h-6 shrink-0 ">
+                    <!-- <div class="flex items-center flex-2"> -->
                             
-                            <textarea name="tweet" id="tweet" cols="30" rows="3" maxlength="280" placeholder="What's happening?!"
-                            class="not-italic leading-normal font-normal text-base placeholder:text-neutral-600 text-neutral-50 bg-transparent" ></textarea>
-                    </div>
+                            <textarea name="tweet" id="tweet" cols="40" rows="4" maxlength="280" placeholder="What's happening?!"
+                            class="not-italic leading-normal font-normal text-base placeholder:text-neutral-600 text-neutral-50 bg-transparent focus:outline-none focus-within:caret-twitter-blue " ></textarea>
+                    <!-- </div> -->
             </div>
         
              <!-- Tweet Character Limit -->
-             <div class="pt-[680px]">
-                <footer class="flex w-390 py-3 px-4 items-center gap-5 border-t border-neutral-800 bg-neutral-1000">
-                    <p class="leading-normal text-sm not-italic font-normal text-neutral-400">
-                        0/280
-                    </p>
-                </footer>
-             </div>
+             
+                
+            
            
         
            </section>
+           <footer class="fixed bottom-0 w-390 py-3 px-4 items-center gap-5 border-t border-neutral-800 bg-neutral-1000">
+            <p class="leading-normal text-sm not-italic font-normal text-neutral-400">
+                0/280
+            </p>
+        </footer>
+    </section>
+    
+           
 </body>
 </html>
