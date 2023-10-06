@@ -29,6 +29,8 @@ module.exports = {
         'serachbar-fill' : '#212327',
         'twitterblue-disabled': '#1E5D87',
         'red-error' : '#8B141A',
+        'neutral-200': '#E4E4E4',
+        
 
 
 
